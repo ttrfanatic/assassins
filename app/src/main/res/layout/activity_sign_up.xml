@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gun35"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:padding="20dp" >
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+    
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email_hint"
+        android:textColorHint="@android:color/darker_gray" >
+
+        <requestFocus />
+    </EditText>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/password_hint"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:id="@+id/editConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/confirm_password_hint"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_button_label" />
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+   
+</LinearLayout>
